@@ -4,28 +4,30 @@
   <img id="header-img" src=""></img>
 <nav id="nav-bar">
   <ul>
-    <li class="nav-link"><a href="#ref1">Ref1</a></li>
-    <li class="nav-link"><a href="#ref2">Ref2</a></li>
-    <li class="nav-link"><a href="#ref3">Ref3</a></li>
+    <li><a class="nav-link" href="#ref1">Ref1</a></li>
+    <li><a class="nav-link" href="#ref2">Ref2</a></li>
+    <li><a class="nav-link" href="#ref3">Ref3</a></li>
   </ul>
 </nav> 
 </header>
 <main>
   <section id="ref1"><h2>Ref1</h2><article><p>Hola a todos esta es una prueba</p>
   </article>
-  <video id="video">
-  </video>
+  <video id="video" src="videofile.ogg" autoplay poster="posterimage.jpg">
+  Tu navegador no admite el elemento <code>video</code>.
+</video>
     
   </section>
   <section id="ref2"><h2>Ref2</h2>
   </section>
   <section id="ref3"><h3>Ref3</h3>
   </section>
-  <form id="form">
+  <form id="form" action="https://www.freecodecamp.org/email-submit">
     <label for="email">Email:
-    <input type="text" id="email" placeholder="Por favor, ingrese su e-mail." required>
-      </input>
+    <input type="email" id="email" name="email" placeholder="Por favor, ingrese su e-mail." required>
   </label>
+  <input id="submit" type="submit">
+
   </form>
 </main>
   </body>

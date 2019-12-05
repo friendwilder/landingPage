@@ -1,0 +1,15 @@
+@media (max-width: 1366px) {
+  
+}
+
+.header {
+  display: flex;
+}
+
+.nav-link {
+  
+}
+
+nav {
+  position: fixed;
+}
